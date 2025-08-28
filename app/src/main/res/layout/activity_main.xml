@@ -9,8 +9,8 @@
     tools:context=".MainActivity">
 
     <LinearLayout
-        android:layout_width="93dp"
-        android:layout_height="174dp"
+        android:layout_width="97dp"
+        android:layout_height="249dp"
         android:layout_marginTop="80dp"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
@@ -23,14 +23,21 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            app:srcCompat="@drawable/light_selector"/>
+            app:srcCompat="@drawable/light_selector_red" />
 
         <ImageView
             android:id="@+id/img_led_two"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            app:srcCompat="@drawable/light_selector"/>
+            app:srcCompat="@drawable/light_selector_yellow" />
+
+        <ImageView
+            android:id="@+id/img_led_three"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            app:srcCompat="@drawable/light_selector_green" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
